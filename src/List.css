@@ -1,0 +1,38 @@
+.list{
+	width: 70%;
+	margin: auto;
+}
+
+.channel-card, .video-card, .playlist-card{
+	display: flex;
+	width: 60vw;
+	background-color: #242424;
+	padding: 15px;
+	height: 35vh;
+
+}
+
+.channel-card h3, .video-card h3, .playlist-card h3{
+	color: #d6d6d6;
+}
+
+.channel-card p, .video-card p, .playlist-card p{
+	color: #939393;
+	width: 400px;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+  	overflow: hidden;
+}
+
+.video-card:hover {
+	cursor: pointer;
+}
+.channel-card div img{
+	border-radius: 50%;
+}
+.playlist-card div img{
+	opacity: 0.5;
+}
+h4{
+	color: white;
+}
